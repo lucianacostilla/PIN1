@@ -9,7 +9,7 @@ pipeline {
         stage('Building image') {
             steps {
                 sh '''
-                docker build -t tpi1 .
+                docker build -t lucianacostilla/tpi1 .
                 '''  
             }
         }
